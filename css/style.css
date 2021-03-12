@@ -1,0 +1,71 @@
+* {
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  margin-top: 6rem;
+  background-color: #cfcfcf;
+  width: 100vw;
+}
+
+.main {
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+.bg-violet {
+  background-color: #7541c8;
+}
+
+.bg-light-gray {
+  background-color: #cfcfcf;
+}
+
+.bg-dark-blackish {
+  background-color: #19212e;
+}
+
+.card {
+  margin-bottom: 2rem;
+  border-radius: 2%;
+}
+
+.quitation {
+  float: right;
+  position: absolute;
+  z-index: 2;
+}
+
+.index-card {
+  z-index: 1;
+}
+
+.img-profile {
+  border: 2px solid #A17ED8;
+  width: 35px;
+}
+
+.name-daniel {
+  color: #F5E3FF;
+  margin-bottom: 1px;
+}
+
+.verified-daniel {
+  color: #A17ED8;
+}
+
+.text-title {
+  font-size: 1.8rem;
+  padding-right: 2.8rem;
+}
+
+.text-paragraph {
+  padding-right: 2.9rem;
+}
+
+.bg-jonathan {
+  background-color: #48556a;
+}
+/*# sourceMappingURL=style.css.map */
