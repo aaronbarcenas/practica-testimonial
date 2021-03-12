@@ -13,7 +13,7 @@ body {
 
 .bg-purpple {
   background-color: #7541c8 !important;
-  background: url(/img/bg-pattern-quotation.svg);
+  background-image: url("../img/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position-x: 90%;
 }
