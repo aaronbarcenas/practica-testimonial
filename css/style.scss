@@ -1,94 +1,80 @@
 *{
     font-size: 13px; 
     font-family: 'Barlow Semi Condensed', sans-serif;
-    box-sizing: content-box;
 }
 
-$bg-Light-gray: hsl(0, 0%, 81%);
-$bg-Light-grayish-blue: hsl(210, 46%, 95%);
-$Moderate-violet: hsl(263, 55%, 52%);;
-$Very-dark-grayish-blue: hsl(217, 19%, 35%);
-$Very-dark-blackish-blue: hsl(219, 29%, 14%);
-$Border-color: #A17ED8;
-$bg-jonathan: #49556B;
-
-body {
-    margin-top: 6rem;
-    background-color: $bg-Light-gray;
-    width: 100vw;
+body{
+    min-height: 100vh;
+    background-color: rgb(203, 209, 214);
+    align-items: center;
 }
 
-.main {
-    padding:  0rem 1rem 2rem 1rem
+$Moderate-violet: hsl(263, 55%, 52%);
+$Very-dark-grayish: blue hsl(217, 19%, 35%);
+$Very-dark-blackish: blue hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(0, 0%, 81%);
+$Light-grayish-blue: hsl(210, 46%, 95%);
+
+.bg-purpple{
+    background-color: $Moderate-violet !important;
+    background: url(/img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
 }
 
-.bg-violet{
-   background-color: $Moderate-violet;
+.bg-gray{
+    background-color: rgb(65, 73, 96);
 }
 
-.bg-light-gray{
-    background-color: $bg-Light-gray;
+.bg-white{
+    background-color: whitesmoke;
 }
 
-.bg-dark-blackish{
-    background-color: $Very-dark-blackish-blue;
-}
-
-.card{
-    margin-bottom: 2rem;
-    border-radius: 2%;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.quitation{
-    float: right;
-    position: absolute;
-    z-index: 2;
-}
-
-.index-card {
-    z-index: 1;
-}
-
-.img-profile {
-    border: 2px solid $Border-color;
-    width: 35px;
-}
-
-.name-daniel {
-    color: #F5E3FF;
-    margin-bottom: 1px;
-}
-
-.name-daniel-b {
-    color: black;
-    margin-bottom: 1px;
-}
-
-.verified-daniel {
-    color: $Border-color;
-}
-
-.text-title{
-    font-size: 1.8rem;
-    padding-right: 2.8rem;
-}
-
-.text-paragraph{
-    padding-right: 2.9rem;
+.bg-blue{
+    background-color: rgb(24, 28, 39);
     
 }
+.card{
+    /* margin-bottom: 1.5rem; */
+    padding: 20px;
 
-.bg-jonathan {
-    background-color: $Very-dark-grayish-blue;
+}
+.img-avatar{
+    margin-left: 1rem;
 }
 
-.row{
-    margin-left: 0px;
+.img-title{
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 
-.rounded-circle-none{
-    border: solid 1px white;
-    border-radius: 100%;
+.title-card {
+   
+    margin: auto 10px;
+    
+    p{
+    margin: 0;
+    padding: 0;
+    }
 }
+
+.img-size{
+    height: 40px;
+}
+
+
+.title-card{
+    p:nth-of-type(2){
+        opacity: 50%;
+    }
+}
+.paragraph{
+    h2{
+        margin-bottom: 2rem;
+    }
+    p{
+        opacity: 70%;
+    }
+}
+
