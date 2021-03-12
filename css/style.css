@@ -30,6 +30,8 @@ body {
 .card {
   margin-bottom: 2rem;
   border-radius: 2%;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .quitation {
@@ -67,5 +69,9 @@ body {
 
 .bg-jonathan {
   background-color: #48556a;
+}
+
+.row {
+  margin-left: 0px;
 }
 /*# sourceMappingURL=style.css.map */

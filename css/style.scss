@@ -37,6 +37,8 @@ body {
 .card{
     margin-bottom: 2rem;
     border-radius: 2%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .quitation{
@@ -75,4 +77,8 @@ body {
 
 .bg-jonathan {
     background-color: $Very-dark-grayish-blue;
+}
+
+.row{
+    margin-left: 0px;
 }
