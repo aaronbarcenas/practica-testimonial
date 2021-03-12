@@ -54,6 +54,11 @@ body {
   margin-bottom: 1px;
 }
 
+.name-daniel-b {
+  color: black;
+  margin-bottom: 1px;
+}
+
 .verified-daniel {
   color: #A17ED8;
 }
@@ -73,5 +78,10 @@ body {
 
 .row {
   margin-left: 0px;
+}
+
+.rounded-circle-none {
+  border: solid 1px white;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=style.css.map */
